@@ -22,5 +22,6 @@ export default {
 </script>
 
 <style lang="scss">
-@import './assets/app.scss';
+  @import '~vue-material/dist/vue-material.css';
+  @import './assets/app.scss';
 </style>
