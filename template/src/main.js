@@ -7,8 +7,22 @@ import App from './App'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{#router}}
 import router from './router'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{/router}}
+import VueMaterial from 'vue-material'
 
 Vue.config.productionTip = false{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+
+Vue.use(VueMaterial)
+
+Vue.material.registerTheme({
+  default: {
+    primary: {
+      color: 'indigo'
+    },
+    accent: {
+      color: 'pink'
+    }
+  }
+})
 
 /* eslint-disable no-new */
 new Vue({
