@@ -21,7 +21,8 @@ Vue.material.registerTheme({
     accent: {
       color: 'pink'
     }
-  }
+  },
+  black: {}
 })
 
 /* eslint-disable no-new */
