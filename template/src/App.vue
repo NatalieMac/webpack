@@ -22,6 +22,7 @@ export default {
 </script>
 
 <style lang="scss">
+  @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
   @import '~vue-material/dist/vue-material.css';
   @import './assets/app.scss';
 </style>
